@@ -11,6 +11,10 @@
         &:hover {
             background-color: lighten($color: $secondary, $amount: 20);
         }
+
+        &:active {
+            background-color: darken($color: $secondary, $amount: 10);
+        }
     }
 
     &:hover {
